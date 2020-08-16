@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  background-color: #0a002e;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+.header {
+  display: flex;
+  background-color: black;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  position: fixed;
+}
+#btnClose {
+  position: fixed;
+  left: 11px;
+}
+.header h1 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+.wrapper {
+  display: flex;
+  margin-top: 10px;
+  flex-flow: column;
+}
+#stopName {
+  margin: 0;
+  padding-top: 51px;
+}
+.bus-wrapper {
+  width: 100vw;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  background-color: aliceblue;
+  color: black;
+  border-bottom: 1px solid black;
+}
+.bus-number {
+  padding-right: 5px;
+  min-width: 60px;
+  border-right: 1px solid rgba(0, 0, 0, 0.8);
+  margin-right: 5px;
+}
+.time-wrapper {
+  width: 100%;
+  font-size: 15px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+.data-wrapper {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.bus-direction {
+  font-size: 30px;
+}
+.expected-time::before {
+  content: "Arrival time: ";
+  font-weight: normal;
+}
+.expected-time {
+  font-weight: bold;
+}
+.to-station::before {
+  content: "To Station";
+  font-weight: bold;
+}

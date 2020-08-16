@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>
+      Michael's Bus App
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://gis.ee/tallinn/peatused.js"></script>
+    <script src="mainscript.js" defer></script>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Michael's Bus App</h1>
+    </div>
+    <div class="wrapper" id="mainWrap">
+      <div class="search">
+        <input type="text" placeholder="Search for bus stop..." id="searchBus">
+      </div>
+      <div class="breaker"></div>
+      <div id="coord"></div>
+      <div class="label" id="currentInfo">Nearest Bus Stop</div>
+      <div id="resultWrap"></div>
+    </div>
+  </body>
+</html>
